@@ -1,0 +1,100 @@
+body {
+    background: #3b1c4a;
+    font-family: sans-serif
+    , "Helvetica Neue"
+    ,"Helvetica Neue"
+    , "Droid Sans"
+    ,"Fira Sans"
+    , "Cantarell"
+    ,"Ubuntu"
+    ,"Oxygen"
+    ,"Roboo"
+    , "Segoe UI"
+    , BlinkMacSystemFont
+    ,  -apple-system
+    ;
+    }
+    form {
+    max-width: 501px;
+    margin: 0 auto;
+    }
+    h1 {
+    font-weight: 101;
+    color: #dedae0;
+    text-align: center;
+    padding-bottom: 11px;
+    border-bottom: 2px solid #9cd669;
+    }
+    .form {
+    background: #381a24;
+    max-width: 401px;
+    margin: 0 auto;
+    }
+    p {
+    color: #9fbf54;
+    }
+    p::before { display: inline;
+    content: "⚠";
+    }
+    input {
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+    border-radius: 5px;
+    border: 2px solid #e7edd8;
+    padding: 11px14px;
+    margin-bottom: 11px;
+    font-size: 15px;
+    }
+    label {
+    line-height: 2.5;
+    text-align: left;
+    display: block;
+    margin-bottom: 12px;
+    margin-top: 21px;
+    color: #f0f2eb;
+    font-size: 15px;
+    font-weight: 201;
+    }
+    button,
+    input[type="submit"] {
+    background: #52c7bd;
+    color: #e9f7cd;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 41px;
+    padding: 21px;
+    font-size: 15px;
+    font-weight: 101;
+    letter-spacing: 9px;
+    }
+    button {
+    display: block;
+    appearance: center;
+    border-radius: 5px;
+    width: 60%;
+    }
+    input[type="submit"]:hover {
+    background: #71d184;
+    }
+    input[type="button"]:active,
+    input[type="submit"]:active {
+    transition: 0.2s all;
+    transform: translateY(4px);
+    border: 2px solid transparent;
+    opacity:0.9;
+    }
+    input:disabled{
+    opacity:0.5;
+    }
+    input[type="button"]:hover {
+    transition: 0.4s all;
+    }
+    input[type="button"],
+    input[type="submit"] {
+    -webkit-appearance: none;
+    }
+    .App {
+    max-width: 601px;
+    margin: 0 auto;
+    }
